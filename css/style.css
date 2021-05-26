@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "KoHo", sans-serif;
+  font-size: 16px;
+}
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.promo {
+  background-color: #eeeeee;
+  height: 540px;
+}
+.header {
+  padding: 35px 0;
+}
+.header_wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 20%;
+}
+.nav {
+  display: flex;
+}
+.nav li:last-child {
+  width: 140px;
+  margin-left: 200px;
+}
+.nav li img {
+  margin-right: 25px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav li:not(:last-child) {
+  margin-right: 55px;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#nav_toggle {
+  display: none;
+}
+.nav_toggle {
+  position: relative;
+  display: none;
+  border: 0;
+  background: none;
+}
+.nav_toggle::before {
+  content: "Menu";
+  color: #fb565a;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav_toggle label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav li img {
+  cursor: pointer;
+}
+.promo_wrapper {
+  display: flex;
+}
+.promo_content {
+  margin-top: 80px;
+}
+.promo_content h2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 54px;
+}
+.promo_content p {
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+.button_order {
+  border: 0;
+  height: 55px;
+  width: 240px;
+  background-color: #fb565a;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.promo_img {
+  margin-top: 22px;
+}
+.apps {
+  background-color: #ffffff;
+  height: 510px;
+}
+.apps_wrapper {
+  height: 510px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sites img {
+  margin-bottom: 30px;
+}
+.sites h2 {
+  margin-bottom: 30px;
+}
+.sites p {
+  margin-bottom: 30px;
+  color: #797c7f;
+  font-weight: 500;
+}
+.button_order_sites {
+  height: 50px;
+  width: 165px;
+  background-color: #fb565a;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+}
+.app img {
+  margin-bottom: 30px;
+}
+.app h2 {
+  margin-bottom: 30px;
+}
+.app p {
+  margin-bottom: 30px;
+  color: #797c7f;
+  font-weight: 500;
+}
+.button_order_app {
+  height: 50px;
+  width: 165px;
+  background-color: #00ca74;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+}
+.presentation img {
+  margin-bottom: 30px;
+}
+.presentation h2 {
+  margin-bottom: 30px;
+}
+.presentation p {
+  margin-bottom: 30px;
+  color: #797c7f;
+  font-weight: 500;
+}
+.button_order_presentation {
+  height: 50px;
+  width: 165px;
+  background-color: #efc84a;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0;
+}
+.portfolio {
+  height: 630px;
+  background-color: #ffffff;
+}
+.portfolio_wrapper {
+  border-top: 2px solid #d5d5d5;
+  border-bottom: 2px solid #d5d5d5;
+}
+.portfolio_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.portfolio_text h2 {
+  margin-top: 70px;
+  font-size: 45px;
+  margin-bottom: 45px;
+}
+.portfolio_text p {
+  margin-bottom: 45px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.portfolio_orders h2 {
+  margin-bottom: 35px;
+}
+.orders1,
+.orders2 {
+  margin-bottom: 35px;
+}
+
+.orders3 {
+  margin-bottom: 80px;
+}
+.orders1,
+.orders2,
+.orders3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.portfolio_orders h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.orders1 img,
+.orders2 img,
+.orders3 img {
+  height: 2px;
+  margin-right: 10px;
+}
+.orders1 p,
+.orders2 p,
+.orders3 p {
+  font-weight: 500;
+}
+.portfolio_results_photo {
+  margin-top: 30px;
+}
+.portfolio_results_photo img {
+  margin-bottom: 90px;
+}
+.portfolio_results h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.results {
+  display: flex;
+}
+.level h2,
+.timing h2,
+.prepayment h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.level {
+  margin-right: 15px;
+}
+.timing {
+  margin-right: 15px;
+}
+.level p,
+.timing p,
+.prepayment p {
+  font-weight: 500;
+}
+.company {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  background-color: white;
+}
+.logo_center_wrapper {
+  border-bottom: 2px solid #d5d5d5;
+  justify-content: space-around;
+}
+.logo_center {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  margin-bottom: 45px;
+
+  align-items: center;
+}
+.line,
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  border-right: 2px solid #d5d5d5;
+  height: 55px;
+  justify-content: space-around;
+}
+.line3 {
+  border-right: none;
+}
+.line_line1 img {
+  margin-top: 10px;
+}
+
+.line img {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.line1 img {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.line2 img {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.line3 img {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.map {
+  height: 490px;
+}
+.map_wrapper {
+  margin-top: 80px;
+}
+
+.address {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 7px;
+  width: 310px;
+  height: 310px;
+  background-color: white;
+  text-align: center;
+  border-radius: 2px;
+}
+.map-marker {
+  margin-top: 9%;
+  margin-left: 24%;
+}
+.address h2 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.address p {
+  line-height: 40px;
+  font-weight: 500;
+}
+.address_button {
+  margin-top: 30px;
+  border: 0;
+  height: 50px;
+  width: 220px;
+  background-color: #fb565a;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.footer {
+  height: 215px;
+}
+.footer_wrapper {
+  display: flex;
+}
+.social {
+  display: flex;
+  margin-top: 65px;
+}
+.social1,
+.social2,
+.social3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+.social1,
+.social2 {
+  margin-right: 10px;
+}
+.footer_text {
+  margin-left: 140px;
+  margin-top: 65px;
+}
+.footer_text h2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.footer_text p {
+  font-weight: 500;
+  font-size: 18px;
+}
